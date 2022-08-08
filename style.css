@@ -6,6 +6,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  color: #fff;
 }
 
 body {
@@ -16,7 +17,7 @@ body {
 
 .container {
   max-width: 1240px;
-  height: 1036px;
+  /*height: 1036px;*/
   background: rgba(0, 0, 0, 0.3);
   margin: 2.75% auto;
 }
@@ -38,4 +39,54 @@ body {
 .desc {
   color: #fff;
   font-family: "Sorts Mill Goudy", serif;
+}
+
+.feedback {
+  resize: none;
+}
+
+.form-container {
+  width: 500px;
+  background: rgba(0, 0, 0, 0.8);
+  margin: auto;
+  padding: 30px 40px;
+}
+
+#comedy {
+  background-color: green;
+}
+
+#name,
+#age,
+#email,
+#content-type,
+#feedback {
+  width: 100%;
+  padding: 12px 10px;
+  margin-top: 10px;
+}
+
+.input-box {
+  margin-top: 10px;
+}
+
+.form-btn {
+  width: 160px;
+  height: 45px;
+  background-color: #ff0000;
+  color: #fff;
+  border-radius: 50px;
+  border: none;
+  cursor: pointer;
+}
+
+.form-btn:hover {
+  background-color: #fff;
+  color: #ff0000;
+}
+
+.form-submit {
+  width: 160px;
+  margin: auto;
+  margin-top: 15px;
 }

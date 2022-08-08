@@ -68,6 +68,7 @@ body {
 
 .input-box {
   margin-top: 10px;
+  /*font-family: constella;*/
 }
 
 .form-btn {
@@ -89,4 +90,9 @@ body {
   width: 160px;
   margin: auto;
   margin-top: 15px;
+}
+
+@font-face {
+  font-family: constella;
+  src: url(./fonts/constella.ttf);
 }

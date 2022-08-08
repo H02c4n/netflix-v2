@@ -1,0 +1,41 @@
+@import url("https://fonts.googleapis.com/css2?family=Bowlby+One+SC&family=Lobster&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Sorts+Mill+Goudy:ital@1&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: url(./img/background_image.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.container {
+  max-width: 1240px;
+  height: 1036px;
+  background: rgba(0, 0, 0, 0.3);
+  margin: 2.75% auto;
+}
+
+.header {
+  text-align: center;
+}
+
+.title {
+  font-size: 3.1rem;
+  font-family: "Bowlby One SC", cursive;
+  color: #fff;
+}
+
+.title-part2 {
+  color: #ff0000;
+}
+
+.desc {
+  color: #fff;
+  font-family: "Sorts Mill Goudy", serif;
+}
